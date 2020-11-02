@@ -111,23 +111,69 @@
   border-bottom: 1px solid #bbb;
 }
 
-.table tr.red {
-  background-color: rgb(255, 85, 0);
+
+.table tr th {
+  font-size: 1.2em;
+  padding: 5px;
+  background-color: var(--table-boarder-color);
   color: white;
 }
 
-.table tr.orange {
-  background-color: #fa8c16;
-  color: white;
+.table td {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.table tr.yellow {
+.table td.status {
+  width: 20px;
+}
+
+.table.yellow {
   background-color: #ffe58f;
 }
 
-.table tr.green {
-  background-color: rgb(135, 208, 104);
+.table tr th {
+  font-size: 1.2em;
+  padding: 5px;
+  background-color: var(--table-boarder-color);
   color: white;
+}
+
+.table td {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.table td.status {
+  width: 20px;
+  background-color: #fa8c16;
+}
+
+.table.yellow {
+  background-color: #ffe58f;
+}
+
+.table tr th {
+  font-size: 1.2em;
+  padding: 5px;
+  background-color: var(--table-boarder-color);
+  color: white;
+}
+
+.table td {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.table td.status {
+  width: 20px;
+}
+
+.table.yellow {
+  background-color: #ffe58f;
 }
 
 .table tr th {
@@ -162,6 +208,65 @@
 
 .table td.status .fk {
   background-image: url(./asset/fk.svg);
+}
+
+.table tr.red {
+  background-color: rgb(255, 85, 0);
+}
+
+.table tr.orange {
+  background-color: #fa8c16;
+}
+
+.table tr.yellow {
+  background-color: #ffe58f;
+}
+
+.table tr.green {
+  background-color: rgb(135, 208, 104);
+}
+
+.table tr.green td, .table tr.orange td, .table tr.red td {
+  color: white;
+}
+
+.table.green tr th {
+  background-color: rgb(135, 208, 104);
+}
+
+.table.red tr th {
+  background-color: rgb(255, 85, 0);
+}
+
+.table.orange tr th {
+  background-color: #fa8c16;
+}
+
+.table.yellow tr th {
+  background-color: #ffe58f;
+}
+.table.green {
+  border-left: rgb(135, 208, 104);
+  border-right: rgb(135, 208, 104);
+  border-bottom: rgb(135, 208, 104);
+}
+
+.table.red {
+  border-left: rgb(255, 85, 0);
+  border-right: rgb(255, 85, 0);
+  border-bottom: rgb(255, 85, 0);
+}
+
+.table.orange {
+  border-left: #fa8c16;
+  border-right: #fa8c16;
+  border-bottom: #fa8c16;
+}
+
+.table.yellow {
+  border-bottom: #ffe58f;
+  border-left: #ffe58f;
+  border-right: #ffe58f;
 }
 
 path {

@@ -22,8 +22,14 @@ export default class Table {
   get name(): string {
     return this.nameValue;
   }
+
+  get class(): string {
+    return this.classValue;
+  }
+
   private columns: Column[];
   private nameValue: string;
+  private classValue: string;
   private posValue: Point | string;
   private disableMovementValue: boolean;
   private elem!: SVGGraphicsElement;
@@ -40,6 +46,7 @@ export default class Table {
   constructor(
     {
       name,
+      class,
       columns = [],
       pos = {
         x: 0,
@@ -51,6 +58,7 @@ export default class Table {
     this.columns = columns as Column[];
     this.nameValue = name;
     this.posValue = pos;
+    this.classValue = class;
 
     this.disableMovementValue = false;
     this.tablesArrangement = arrangement;
@@ -66,6 +74,10 @@ export default class Table {
 
   getName(): string {
     return this.nameValue;
+  }
+
+  getClass(): string {
+    return this.classValue;
   }
 
   addColumn(column: Column): void {
@@ -129,6 +141,9 @@ export default class Table {
       "table"
     ) as HTMLElement;
     this.table.className = "table";
+    if (this.class) {
+      this.table.classList.add(this.class);
+    }
     const thead = document.createElementNS(constant.nsHtml, "thead");
     const headingTr = document.createElementNS(constant.nsHtml, "tr");
     const headingTh = document.createElementNS(constant.nsHtml, "th");
