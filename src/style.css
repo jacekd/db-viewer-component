@@ -111,6 +111,25 @@
   border-bottom: 1px solid #bbb;
 }
 
+.table tr.red {
+  background-color: rgb(255, 85, 0);
+  color: white;
+}
+
+.table tr.orange {
+  background-color: #fa8c16;
+  color: white;
+}
+
+.table tr.yellow {
+  background-color: #ffe58f;
+}
+
+.table tr.green {
+  background-color: rgb(135, 208, 104);
+  color: white;
+}
+
 .table tr th {
   font-size: 1.2em;
   padding: 5px;
