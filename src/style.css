@@ -127,69 +127,6 @@
 
 .table td.status {
   width: 20px;
-}
-
-.table.yellow {
-  background-color: #ffe58f;
-}
-
-.table tr th {
-  font-size: 1.2em;
-  padding: 5px;
-  background-color: var(--table-boarder-color);
-  color: white;
-}
-
-.table td {
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.table td.status {
-  width: 20px;
-}
-
-.table.yellow {
-  background-color: #ffe58f;
-}
-
-.table tr th {
-  font-size: 1.2em;
-  padding: 5px;
-  background-color: var(--table-boarder-color);
-  color: white;
-}
-
-.table td {
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.table td.status {
-  width: 20px;
-}
-
-.table.yellow {
-  background-color: #ffe58f;
-}
-
-.table tr th {
-  font-size: 1.2em;
-  padding: 5px;
-  background-color: var(--table-boarder-color);
-  color: white;
-}
-
-.table td {
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.table td.status {
-  width: 20px;
   height: 20px;
   padding: 0;
 }
@@ -245,27 +182,27 @@
   background-color: #ffe58f;
 }
 .table.green {
-  border-left: rgb(135, 208, 104);
-  border-right: rgb(135, 208, 104);
-  border-bottom: rgb(135, 208, 104);
+  border-left-color: rgb(135, 208, 104);
+  border-right-color: rgb(135, 208, 104);
+  border-bottom-color: rgb(135, 208, 104);
 }
 
 .table.red {
-  border-left: rgb(255, 85, 0);
-  border-right: rgb(255, 85, 0);
-  border-bottom: rgb(255, 85, 0);
+  border-left-color: rgb(255, 85, 0);
+  border-right-color: rgb(255, 85, 0);
+  border-bottom-color: rgb(255, 85, 0);
 }
 
 .table.orange {
-  border-left: #fa8c16;
-  border-right: #fa8c16;
-  border-bottom: #fa8c16;
+  border-left-color: #fa8c16;
+  border-right-color: #fa8c16;
+  border-bottom-color: #fa8c16;
 }
 
 .table.yellow {
-  border-bottom: #ffe58f;
-  border-left: #ffe58f;
-  border-right: #ffe58f;
+  border-bottom-color: #ffe58f;
+  border-left-color: #ffe58f;
+  border-right-color: #ffe58f;
 }
 
 path {
