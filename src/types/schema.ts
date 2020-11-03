@@ -22,6 +22,7 @@ export type ColumnSchema = ColumnFkSchema | ColumnNoneFkSchema;
 
 export interface TableSchema {
   name: string;
+  styleClass?: string;
   pos?: Point | string;
   columns: ColumnSchema[];
 }
