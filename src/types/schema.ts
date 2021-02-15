@@ -25,6 +25,7 @@ export interface TableSchema {
   styleClass?: string;
   pos?: Point | string;
   columns: ColumnSchema[];
+  modified: string;
 }
 
 export interface Schema {

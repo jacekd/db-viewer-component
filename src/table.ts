@@ -27,8 +27,13 @@ export default class Table {
     return this.classValue;
   }
 
+  get modified(): string {
+    return this.modifiedValue;
+  }
+
   private columns: Column[];
   private nameValue: string;
+  private modifiedValue: string;
   private classValue: string;
   private posValue: Point | string;
   private disableMovementValue: boolean;
@@ -52,11 +57,13 @@ export default class Table {
         x: 0,
         y: 0,
       },
+      modified = ""
     }: TableSchema,
     arrangement?: TableArrang
   ) {
     this.columns = columns as Column[];
     this.nameValue = name;
+    this.modifiedValue = modified;
     this.posValue = pos;
     this.classValue = styleClass;
 
@@ -74,6 +81,10 @@ export default class Table {
 
   getName(): string {
     return this.nameValue;
+  }
+
+  setModified(newModified: string): void {
+    this.modifiedValue = newModified;
   }
 
   addColumn(column: Column): void {
@@ -144,7 +155,7 @@ export default class Table {
     const headingTr = document.createElementNS(constant.nsHtml, "tr");
     const headingTh = document.createElementNS(constant.nsHtml, "th");
     headingTh.setAttributeNS(null, "colspan", `${3}`);
-    headingTh.innerHTML = this.nameValue;
+    headingTh.innerHTML = this.nameValue + " " + this.modifiedValue;
     headingTr.appendChild(headingTh);
     thead.appendChild(headingTr);
 
