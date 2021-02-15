@@ -1,13 +1,12 @@
 {
-  "tables": [
-    {
+  "tables": [{
       "name": "table1",
+      "modified": "",
       "pos": {
         "x": 0,
         "y": 0
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -28,12 +27,12 @@
     },
     {
       "name": "table2",
+      "modified": "",
       "pos": {
         "x": 10,
         "y": 10
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -61,12 +60,12 @@
     },
     {
       "name": "table3",
+      "modified": "",
       "pos": {
         "x": 20,
         "y": 20
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -101,12 +100,12 @@
     },
     {
       "name": "table4",
+      "modified": "",
       "pos": {
         "x": 30,
         "y": 30
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -141,12 +140,12 @@
     },
     {
       "name": "table5",
+      "modified": "",
       "pos": {
         "x": 40,
         "y": 40
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -181,12 +180,12 @@
     },
     {
       "name": "table6",
+      "modified": "",
       "pos": {
         "x": 50,
         "y": 50
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -221,12 +220,12 @@
     },
     {
       "name": "table7",
+      "modified": "",
       "pos": {
         "x": 60,
         "y": 60
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -261,12 +260,12 @@
     },
     {
       "name": "table8",
+      "modified": "",
       "pos": {
         "x": 70,
         "y": 70
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -301,12 +300,12 @@
     },
     {
       "name": "table9",
+      "modified": "",
       "pos": {
         "x": 80,
         "y": 80
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -341,12 +340,12 @@
     },
     {
       "name": "table10",
+      "modified": "",
       "pos": {
         "x": 90,
         "y": 90
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -381,12 +380,12 @@
     },
     {
       "name": "table11",
+      "modified": "",
       "pos": {
         "x": 100,
         "y": 100
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -421,12 +420,12 @@
     },
     {
       "name": "table12",
+      "modified": "",
       "pos": {
         "x": 110,
         "y": 110
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -461,12 +460,12 @@
     },
     {
       "name": "table13",
+      "modified": "",
       "pos": {
         "x": 120,
         "y": 120
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -501,12 +500,12 @@
     },
     {
       "name": "table14",
+      "modified": "",
       "pos": {
         "x": 130,
         "y": 130
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -541,12 +540,12 @@
     },
     {
       "name": "table15",
+      "modified": "",
       "pos": {
         "x": 140,
         "y": 140
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -581,12 +580,12 @@
     },
     {
       "name": "table16",
+      "modified": "",
       "pos": {
         "x": 150,
         "y": 150
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -621,12 +620,12 @@
     },
     {
       "name": "table17",
+      "modified": "",
       "pos": {
         "x": 160,
         "y": 160
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -661,12 +660,12 @@
     },
     {
       "name": "table18",
+      "modified": "",
       "pos": {
         "x": 170,
         "y": 170
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -701,12 +700,12 @@
     },
     {
       "name": "table19",
+      "modified": "",
       "pos": {
         "x": 180,
         "y": 180
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -741,12 +740,12 @@
     },
     {
       "name": "table20",
+      "modified": "",
       "pos": {
         "x": 190,
         "y": 190
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -781,12 +780,12 @@
     },
     {
       "name": "table21",
+      "modified": "",
       "pos": {
         "x": 200,
         "y": 200
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -821,12 +820,12 @@
     },
     {
       "name": "table22",
+      "modified": "",
       "pos": {
         "x": 210,
         "y": 210
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -861,12 +860,12 @@
     },
     {
       "name": "table23",
+      "modified": "",
       "pos": {
         "x": 220,
         "y": 220
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -901,12 +900,12 @@
     },
     {
       "name": "table24",
+      "modified": "",
       "pos": {
         "x": 230,
         "y": 230
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -941,12 +940,12 @@
     },
     {
       "name": "table25",
+      "modified": "",
       "pos": {
         "x": 240,
         "y": 240
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -981,12 +980,12 @@
     },
     {
       "name": "table26",
+      "modified": "",
       "pos": {
         "x": 250,
         "y": 250
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -1021,12 +1020,12 @@
     },
     {
       "name": "table27",
+      "modified": "",
       "pos": {
         "x": 260,
         "y": 260
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -1061,12 +1060,12 @@
     },
     {
       "name": "table28",
+      "modified": "",
       "pos": {
         "x": 270,
         "y": 270
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -1101,12 +1100,12 @@
     },
     {
       "name": "table29",
+      "modified": "",
       "pos": {
         "x": 280,
         "y": 280
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -1141,12 +1140,12 @@
     },
     {
       "name": "table30",
+      "modified": "",
       "pos": {
         "x": 290,
         "y": 290
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"

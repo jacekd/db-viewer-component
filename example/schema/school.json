@@ -1,13 +1,12 @@
 {
-  "tables": [
-    {
+  "tables": [{
       "name": "school",
+      "modified": "",
       "pos": {
         "x": 1722,
         "y": 1560
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -28,12 +27,12 @@
     },
     {
       "name": "class",
+      "modified": "",
       "pos": {
         "x": 1620,
         "y": 1306
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
@@ -55,12 +54,12 @@
     },
     {
       "name": "student",
+      "modified": "",
       "pos": {
         "x": 1271,
         "y": 1407
       },
-      "columns": [
-        {
+      "columns": [{
           "name": "id",
           "pk": true,
           "type": "int"
